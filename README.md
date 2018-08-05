@@ -14,4 +14,9 @@ Anyone can contribute but only related to design pattern implementation like Mat
 Access [main.dart](https://github.com/ZubairKh/flutter_design_learning/blob/master/lib/main.dart) 
 
 - Created list of kittens rendered on ListView.
-- On Item click displayed a SimpleDialog showing Image, Name, age, description and two buttons at the bottom 
+- On Item click displayed a SimpleDialog showing Image, Name, age, description and two buttons at the bottom
+
+## References
+Here is Example 1 video that is associated with [Google Developers](https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw)
+- [Using Material Design with Flutter](https://www.youtube.com/watch?v=DL0Ix1lnC4w&list=PLOU2XLYxmsIJ7dsVN4iRuA7BT8XHzGtCr&index=4)
+
