@@ -1,3 +1,8 @@
-# flutter_design_learning
+# learning_design
 
-Learn how to design flutter apps by using built in core widgets provided by flutter. I am making this repo to bring many useful designs pattern like Material design, applied in a single flutter project. Anyone can take advantage while making in real apps. 
+A new Flutter project.
+
+## Getting Started
+
+For help getting started with Flutter, view our online
+[documentation](https://flutter.io/).
