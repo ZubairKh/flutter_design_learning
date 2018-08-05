@@ -7,7 +7,13 @@ A new Flutter design related source in one place.
 For help getting started with Flutter, view our online
 [documentation](https://flutter.io/).
 
-Anyone can contribute but only related to design pattern implementation like Material design. This project is based on implementing design patterns available in flutter core built in designs. 
+Anyone can contribute but only related to design pattern implementation like Material design. This project is based on implementing design patterns available in flutter core built in designs.
+
+## IDE Usage
+
+All examples made (or will make) in this project by using [IntelliJ Idea](https://www.jetbrains.com/idea/).
+You can choose your own choice editors as well like [Android Studio](https://developer.android.com/studio/install) and [Visual Studio Code](https://code.visualstudio.com/)
+You can download the IDE of your choice :-)
 
 # Example 1 (SimpleDialog on ListView Item click):
 
