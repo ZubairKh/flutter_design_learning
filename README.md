@@ -26,7 +26,18 @@ Access package [simple_dialog](https://github.com/ZubairKh/flutter_design_learni
 - Created list of kittens rendered on ListView.
 - On Item click displayed a SimpleDialog showing Image, Name, age, description and two buttons at the bottom
 
+## Example 2 (Original Floating Action Button vs Custom Floating Button):
+
+Access package [custom_widgets](https://github.com/ZubairKh/flutter_design_learning/blob/master/lib/custom_widgets) 
+
+- Custom design Floating Action Button.
+
 ## References
-Here is Example 1 video that is associated with [Google Developers](https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw)
+Here is Examples video that is associated with [Google Developers](https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw)
+### Simple Dialog along with ListView and ListTile usage
 - [Using Material Design with Flutter](https://www.youtube.com/watch?v=DL0Ix1lnC4w&list=PLOU2XLYxmsIJ7dsVN4iRuA7BT8XHzGtCr&index=4)
+
+### Floating Action Button vs Custom Floating Button
+- [Building your first flutter custom widget](https://www.youtube.com/watch?v=W1pNjxmNHNQ&list=PLOU2XLYxmsIJ7dsVN4iRuA7BT8XHzGtCr&index=3)
+
 

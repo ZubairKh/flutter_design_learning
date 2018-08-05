@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learning_design/custom_widgets/my_float_button.dart';
 import 'package:learning_design/simple_dialog/simple_dialog.dart';
 import 'package:learning_design/utils/constants.dart';
 
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         Constants.RootRoute: (BuildContext context) => MyHomePage(),
         Constants.MySimpleDialog: (BuildContext context) => MySimpleDialog(),
+        Constants.MyFloatButton: (BuildContext context) => MyFloatButton(),
       },
     );
   }
@@ -32,9 +34,12 @@ class ExampleList {
 
 final List<ExampleList> _examplesList = <ExampleList>[
   ExampleList(
-    title: 'SimpleDialog',
-    subTitle:
-        'An example to show a simple dialog using material design components...',
+    title: 'Simple Dialog',
+    subTitle: 'A simple dialog using material design components...',
+  ),
+  ExampleList(
+    title: 'Custom Floating Button',
+    subTitle: 'A custom Floating button widget using material design...',
   ),
   ExampleList(
     title: 'More Designs',
@@ -47,6 +52,9 @@ class MyHomePage extends StatelessWidget {
     switch (index) {
       case 0:
         Navigator.of(context).pushNamed(Constants.MySimpleDialog);
+        break;
+      case 1:
+        Navigator.of(context).pushNamed(Constants.MyFloatButton);
         break;
     }
   }
