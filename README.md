@@ -15,9 +15,13 @@ All examples made (or will make) in this project by using [IntelliJ Idea](https:
 You can choose your own choice editors as well like [Android Studio](https://developer.android.com/studio/install) and [Visual Studio Code](https://code.visualstudio.com/)
 You can download the IDE of your choice :-)
 
-# Example 1 (SimpleDialog on ListView Item click):
+## Home Page (List of examples)
 
-Access [main.dart](https://github.com/ZubairKh/flutter_design_learning/blob/master/lib/main.dart) 
+On Tap of each page will take you to particular example
+
+## Example 1 (SimpleDialog on ListView Item click):
+
+Access package [simple_dialog](https://github.com/ZubairKh/flutter_design_learning/blob/master/lib/simple_dialog/simple_dialog.dart) 
 
 - Created list of kittens rendered on ListView.
 - On Item click displayed a SimpleDialog showing Image, Name, age, description and two buttons at the bottom
