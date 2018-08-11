@@ -15,6 +15,8 @@ All examples made (or will make) in this project by using [IntelliJ Idea](https:
 You can choose your own choice editors as well like [Android Studio](https://developer.android.com/studio/install) and [Visual Studio Code](https://code.visualstudio.com/)
 You can download the IDE of your choice :-)
 
+You can also visit [Get Started: Configure Editor](https://flutter.io/get-started/editor/#vscode) page to get more help about editors from Flutter documentation.
+
 ## Home Page (List of examples)
 
 On Tap of each page will take you to particular example
