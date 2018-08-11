@@ -1,13 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:learning_design/custom_widgets/fancy_floating_button.dart';
+import 'package:learning_design/utils/constants.dart';
 
 class MyFloatButton extends StatefulWidget {
-  int _rotation = 0;
-  bool _showIcon = false;
-  String _showHideText = "SHOW ICON";
-  bool _showOriginal = false;
-  String _showHideOriginal = "SHOW ORIGINAL BUTTON";
-
   @override
   MyFloatButtonState createState() {
     return new MyFloatButtonState();
@@ -15,11 +10,18 @@ class MyFloatButton extends StatefulWidget {
 }
 
 class MyFloatButtonState extends State<MyFloatButton> {
+  int _rotation = 0;
+  bool _showIcon = false;
+  String _showHideText = "SHOW ICON";
+  bool _showOriginal = false;
+  String _showHideOriginal = "SHOW ORIGINAL BUTTON";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Custom Floating Button'),
+        elevation: Constants.elevation(),
       ),
       body: Container(
         child: Center(
@@ -29,32 +31,31 @@ class MyFloatButtonState extends State<MyFloatButton> {
               FlatButton(
                 onPressed: () {
                   setState(() {
-                    widget._showOriginal = !widget._showOriginal;
-                    widget._showHideOriginal = widget._showOriginal
+                    _showOriginal = !_showOriginal;
+                    _showHideOriginal = _showOriginal
                         ? "SHOW CUSTOM BUTTON"
                         : "SHOW ORIGINAL BUTTON";
                   });
                 },
-                child: Text(widget._showHideOriginal),
+                child: Text(_showHideOriginal),
               ),
               FlatButton(
-                onPressed: widget._showOriginal
+                onPressed: _showOriginal
                     ? null
                     : () {
                         setState(() {
-                          widget._showIcon = !widget._showIcon;
-                          widget._showHideText =
-                              widget._showIcon ? "HIDE ICON" : "SHOW ICON";
+                          _showIcon = !_showIcon;
+                          _showHideText = _showIcon ? "HIDE ICON" : "SHOW ICON";
                         });
                       },
-                child: Text(widget._showHideText),
+                child: Text(_showHideText),
               ),
               FlatButton(
-                onPressed: widget._showOriginal
+                onPressed: _showOriginal
                     ? null
                     : () {
                         setState(() {
-                          widget._rotation++;
+                          _rotation++;
                         });
                       },
                 child: Text('ROTATE'),
@@ -63,13 +64,13 @@ class MyFloatButtonState extends State<MyFloatButton> {
           ),
         ),
       ),
-      floatingActionButton: widget._showOriginal
+      floatingActionButton: _showOriginal
           ? FloatingActionButton(
               child: Icon(
-                Icons.explore,
-                color: Colors.amber,
+                Icons.add,
+                color: Colors.white,
               ),
-              backgroundColor: Colors.purple,
+              backgroundColor: Colors.teal,
               tooltip: 'Original Floating Button',
               onPressed: () {
                 print('On Tap of original button..');
@@ -79,8 +80,8 @@ class MyFloatButtonState extends State<MyFloatButton> {
               onPressed: () {
                 print('On Tap of custom button..');
               },
-              rotation: widget._rotation,
-              showIcon: widget._showIcon,
+              rotation: _rotation,
+              showIcon: _showIcon,
             ),
     );
   }

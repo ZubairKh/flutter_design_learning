@@ -23,7 +23,7 @@ class FancyFloatingButton extends StatelessWidget {
               showIcon
                   ? Icon(
                       Icons.explore,
-                      color: Colors.purpleAccent,
+                      color: Colors.tealAccent,
                     )
                   : Text(''),
               const SizedBox(
@@ -38,8 +38,8 @@ class FancyFloatingButton extends StatelessWidget {
             ],
           ),
         ),
-        fillColor: Colors.deepPurple,
-        splashColor: Colors.purple,
+        fillColor: Colors.teal,
+        splashColor: Colors.green,
         onPressed: onPressed,
         shape: const StadiumBorder(),
       ),

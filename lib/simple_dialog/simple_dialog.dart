@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'model.dart';
+import 'package:learning_design/models/kitten.dart';
+import 'package:learning_design/utils/constants.dart';
 
 class MySimpleDialog extends StatelessWidget {
   final List<Kitten> _kittens = <Kitten>[
@@ -138,6 +138,7 @@ class MySimpleDialog extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Simple Dialog'),
+        elevation: Constants.elevation(),
       ),
       body: ListView.builder(
         itemCount: _kittens.length,
