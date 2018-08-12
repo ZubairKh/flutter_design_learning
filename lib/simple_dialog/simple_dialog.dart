@@ -108,14 +108,14 @@ class MySimpleDialog extends StatelessWidget {
               width: 50.0,
               height: 50.0,
               decoration: new BoxDecoration(
-                color: Colors.purpleAccent,
+                color: Colors.green,
                 image: new DecorationImage(
                   image: new NetworkImage(_kittens[index].imageUrl),
                   fit: BoxFit.cover,
                 ),
                 borderRadius: new BorderRadius.all(new Radius.circular(50.0)),
                 border: new Border.all(
-                  color: Colors.purple,
+                  color: Colors.teal,
                   width: 4.0,
                 ),
               ),
