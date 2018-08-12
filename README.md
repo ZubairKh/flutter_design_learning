@@ -41,10 +41,7 @@ Access package [bottom_nav](https://github.com/ZubairKh/flutter_design_learning/
 Bottom Navigation bar with 3 icons Favourites (using GridTiles), Recents and Contacts List (Using ListTiles)
 
 ## Screen Shots
-<img width="438" alt="screen shot 2018-08-12 at 2 41 55 pm" src="https://user-images.githubusercontent.com/10397305/44000679-f3ab6e7c-9e3d-11e8-8049-3c24fa128c95.png">
-<img width="438" alt="screen shot 2018-08-12 at 2 43 54 pm" src="https://user-images.githubusercontent.com/10397305/44000688-2f8c44c0-9e3e-11e8-9c61-3f0215098fef.png">
-<img width="438" alt="screen shot 2018-08-12 at 2 45 05 pm" src="https://user-images.githubusercontent.com/10397305/44000692-52740e14-9e3e-11e8-896e-530bf84ec2f8.png">
-<img width="438" alt="screen shot 2018-08-12 at 2 45 58 pm" src="https://user-images.githubusercontent.com/10397305/44000711-7125b40c-9e3e-11e8-9b75-06f070fa3737.png">
+<img width="350" alt="screen shot 2018-08-12 at 2 41 55 pm" src="https://user-images.githubusercontent.com/10397305/44000679-f3ab6e7c-9e3d-11e8-8049-3c24fa128c95.png"> <img width="350" alt="screen shot 2018-08-12 at 2 43 54 pm" src="https://user-images.githubusercontent.com/10397305/44000688-2f8c44c0-9e3e-11e8-9c61-3f0215098fef.png"> <img width="350" alt="screen shot 2018-08-12 at 2 45 05 pm" src="https://user-images.githubusercontent.com/10397305/44000692-52740e14-9e3e-11e8-896e-530bf84ec2f8.png"> <img width="350" alt="screen shot 2018-08-12 at 2 45 58 pm" src="https://user-images.githubusercontent.com/10397305/44000711-7125b40c-9e3e-11e8-9b75-06f070fa3737.png">
 
 ## References
 ### Simple Dialog along with ListView and ListTile usage
