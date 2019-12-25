@@ -1,4 +1,4 @@
-# learning_design
+# Flutter Design Learning
 
 A new Flutter design related source in one place. 
 
