@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learning_design/animated_widgets/hero_widget_page.dart';
 import 'package:learning_design/bottom_nav/my_bottom_nav.dart';
 import 'package:learning_design/custom_widgets/my_float_button.dart';
 import 'package:learning_design/simple_dialog/simple_dialog.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
         Constants.MySimpleDialog: (BuildContext context) => MySimpleDialog(),
         Constants.MyFloatButton: (BuildContext context) => MyFloatButton(),
         Constants.MyBottomNav: (BuildContext context) => MyBottomNav(),
+        "/HeroWidget": (BuildContext context) => HeroWidgetMain()
       },
     );
   }
@@ -51,6 +53,10 @@ final List<ExampleList> _examplesList = <ExampleList>[
         'Bottom navigation bars allow movement between primary destinations in an app...',
   ),
   ExampleList(
+    title: 'Hero Widget',
+    subTitle: 'Learn how to create an animated widget like Hero!!',
+  ),
+  ExampleList(
     title: 'More Designs',
     subTitle: 'Coming soon :). You are welcome to contribute anytime...',
   ),
@@ -67,6 +73,9 @@ class MyHomePage extends StatelessWidget {
         break;
       case 2:
         Navigator.of(context).pushNamed(Constants.MyBottomNav);
+        break;
+      case 3:
+        Navigator.of(context).pushNamed("/HeroWidget");
         break;
     }
   }

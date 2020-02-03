@@ -20,9 +20,7 @@ class RecentsList extends StatelessWidget {
                   icon: Icon(icon),
                   highlightColor: Colors.teal,
                 )
-              : Container(
-                  width: 1.0,
-                ),
+              : Text(''),
           title: Text(Constants.users[index].name),
           subtitle: Text(Constants.users[index].phoneNo),
           onTap: () {},
